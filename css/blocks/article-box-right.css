@@ -1,0 +1,51 @@
+.article-box__title {
+	font-size: var(--fs-plus-1);
+	font-style: italic;
+	font-weight: 600;
+}
+
+.article-box__link {
+	background-color: var(--c-red);
+	border-radius: 5px;
+	color: var(--c-white);
+	display: inline-block;
+	font-size: var(--fs-base);
+	margin-top: var(--sp-l);
+	padding: var(--sp-s) var(--sp-m);
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color 300ms;
+
+	&:hover {
+		background-color: var(--c-red-500);
+	}
+}
+
+.article-box__description {
+	font-size: var(--fs-plus-1);
+}
+
+.wp-block-gutenberg-custom-article-box-right .flex-row {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+.wp-block-gutenberg-custom-article-box-right .article-box__text {
+	flex: 1;
+}
+
+.wp-block-gutenberg-custom-article-box-right .article-box__text .content-wrap {
+	padding: 50px 0 50px 50px;
+	margin-left: auto;
+	max-width: 550px;
+}
+
+.wp-block-gutenberg-custom-article-box-right .article-box__text .article-box__content p {
+	font-size: 16px;
+}
+
+.wp-block-gutenberg-custom-article-box-right .article-box__image {
+	flex: 1;
+	width: 50%;
+}

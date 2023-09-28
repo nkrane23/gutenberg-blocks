@@ -1,0 +1,14 @@
+/**
+ * GutenbergLessons: Block styles
+ * https://project-website.tld
+ *
+ */
+
+@import url("call-to-action.css");
+@import url("group-block.css");
+@import url("inner-blocks-one.css");
+@import url("inner-blocks-two.css");
+
+/* Custom */
+@import url("article-box-left.css");
+@import url("article-box-right.css");

@@ -1,0 +1,51 @@
+{
+  "title": "Article Box Left",
+  "apiVersion": 2,
+  "description": "Left Aligned - Article box layout with image.",
+  "textdomain": "gutenberg-lessons",
+  "name": "gutenberg-custom/article-box-left",
+  "icon": "feedback",
+  "category": "gutenberg-custom",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaID": {
+      "type": "number"
+    },
+    "mediaURL": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    },
+    "showCTALink": {
+      "type": "boolean"
+    },
+    "ctaLink": {
+      "type": "string",
+      "default": "https://10up.com"
+    },
+    "ctaText": {
+      "type": "string",
+      "default": "Learn more →"
+    }
+  },
+  "example": {
+    "attributes": {
+      "title": "Article Box Left Example",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "mediaID": 1,
+      "mediaURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2ChocolateChipCookies.jpg/320px-2ChocolateChipCookies.jpg",
+      "showCTALink": true,
+      "ctaLink": "https://10up.com",
+      "ctaText": "Cta Text"
+    }
+  },
+  "editorScript": "file:./index.js"
+}
