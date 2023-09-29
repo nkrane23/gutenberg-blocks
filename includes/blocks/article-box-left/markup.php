@@ -1,6 +1,6 @@
 <?php
 /**
- * Example block markup
+ * Article Box Left Markup
  *
  * @package GutenbergCustom\Blocks\ArticleBoxLeft
  *
