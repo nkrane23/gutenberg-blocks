@@ -2,7 +2,7 @@
 Custom Gutenberg blocks using the [`10up Gutenberg Training Theme`](https://github.com/10up/gutenberg-lessons).
 
 > [!IMPORTANT]
-> This code are partials. These blocks were created using Node.js version 16.20.2 and NPM version 8.19.4
+> This code consists of partials. These blocks were created using Node.js version 16.20.2 and NPM version 8.19.4
 
 ## Getting Started
 
